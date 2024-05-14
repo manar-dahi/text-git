@@ -1621,6 +1621,9 @@ left: 3px;
     flex-direction: column;
     align-items: center;
 }
+#offers-ending  .smart  .sr .sma p{
+    padding-top: 5px;
+}
 #offers-ending  .smart  .sr  .add .center{
     padding-left: 0;
 }
@@ -1636,17 +1639,30 @@ gap: 3px;
 }
 #shop-now img{
     padding-left: 56px;
+    height: max-content;
+}
+#shop-now p.now{
+    margin-top: 0;
+}
+
+#enjoy-all {
+    margin-top: 12px;
 }
 #customer-rev .sayed{
     overflow: scroll;
 }
 #all-brands .imgs{
     overflow: scroll;
+    margin-bottom: 50px;
 }
 #join-now{
     margin: 1rem;
     flex-direction: column;
     align-items: center;
+}
+#join-now .emai{
+    padding-left: 40px;
+    margin-top: 20px;
 }
 #join-now .emai form input{
     width: max-content;
@@ -1654,6 +1670,10 @@ gap: 3px;
 #footer {
     flex-direction: column;
     height: max-content;
+    margin-top: 40px;
+}
+/*#footer .all p{
+    padding-left: 20px;*/
 }
 #footer .contact  .pay{
     flex-direction: column;
